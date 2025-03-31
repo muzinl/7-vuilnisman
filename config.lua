@@ -25,17 +25,6 @@ Config.VoertuigVerwijder = {
 --Afval stortplaats Instellingen
 Config.MaxBagsBeforeDump = 20  -- Number of trash bags before requiring a dump
 Config.BagsCollected = 0       -- Initialize counter
-Config.  = {
-    coords = vector4(-349.2654, -1555.0891, 25.9112, 350.6050),
-    dropCoords = vector4(-352.2169, -1554.1670, 26.1321, 90.0416),
-    radius = 10.0,
-    blip = {
-        sprite = 318,
-        color = 1,
-        scale = 0.8,
-        label = "Afval stortplaats"
-    }
-}
 
 -- Borg instellingen
 Config.UseDeposit = true  -- Borg systeem aan/uit
